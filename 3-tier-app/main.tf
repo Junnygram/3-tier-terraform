@@ -17,5 +17,4 @@ module "vpc" {
   private_app_subnet_az2_cidr         = var.private_app_subnet_az2_cidr
   private_data_subnet_az1             = var.private_data_subnet_az1
   private_data_subnet_az2             = var.private_data_subnet_az2
-
 }

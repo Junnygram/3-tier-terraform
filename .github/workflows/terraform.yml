@@ -5,12 +5,12 @@ on:
     branches:
       - master
     paths:
-      - terraform/**
+      - 3-tier-app/**
   pull_request:
     branches:
       - master
     paths:
-      - terraform/**
+      - 3-tier-app/**
 env:
   # credentials for deployment to AWS
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
